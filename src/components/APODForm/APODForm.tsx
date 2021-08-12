@@ -13,7 +13,12 @@ export function APODForm() {
     return (
       <div className="APODCard">
         <div className="left-column">
-          <img src={data.url} alt={data.title} />
+          <img
+            src={data.url}
+            alt={data.title}
+            width="300px"
+            height="300px"
+          />
         </div>
         <div className="right-column">
           <div className="title">
